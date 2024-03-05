@@ -55,10 +55,10 @@ async def huhh(client: Client, message: Message):
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("EU_ET")
+    usr = await client.get_chat("Z_C_T")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"𓏺 َِՏΌႮᎡᏟᎬ ᎡᎥΝΌ \n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\nՏΌႮᎡᏟᎬ ᎡᎥΝΌ", 
+    await message.reply_photo(photo,       caption=f"𝘀𝗼𝘂𝗿𝗰𝗲 𝗸𝗮𝗯𝗼𝗼𝘀  \n\n‍ ¦𝗱𝗲𝘃 :{name}\n ¦𝘂𝘀𝗲𝗿 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦𝗕𝗜𝗢 :{usr.bio}\n\n𝘀𝗼𝘂𝗿𝗰𝗲 𝗸𝗮𝗯𝗼𝗼𝘀 ", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -71,15 +71,15 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["ميدو"])
+    command(["كابوس"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("EU_ET")
+    usr = await client.get_chat("Z_C_T")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"𝘀𝗼𝘂𝗿𝗰𝗲 𝗸𝗮𝗯𝗼𝗼𝘀  .\n\n¦𝗱𝗲𝘃 :{name}\n ¦𝘂𝘀𝗲𝗿 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n𝘀𝗼𝘂𝗿𝗰𝗲 𝗸𝗮𝗯𝗼𝗼𝘀", 
+    await message.reply_photo(photo,       caption=f"𝘀𝗼𝘂𝗿𝗰𝗲 𝗸𝗮𝗯𝗼𝗼𝘀  .\n\n¦𝗱𝗲𝘃 :{name}\n ¦𝘂𝘀𝗲𝗿 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦𝗕𝗜𝗢 :{usr.bio}\n\n𝘀𝗼𝘂𝗿𝗰𝗲 𝗸𝗮𝗯𝗼𝗼𝘀", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
