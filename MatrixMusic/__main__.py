@@ -49,7 +49,7 @@ async def init():
     except:
         pass
     await Zelzaly.decorators()
-    LOGGER("ميــوزك كابوس").info("MatrixThon")
+    LOGGER("ميــوزك كابوس").info("KK_DX")
     await idle()
     await app.stop()
     await userbot.stop()
